@@ -237,7 +237,7 @@ if __name__ == '__main__':
     name4 = 'volatility_time.png'
     time_series_iv(in_filename=name1, out_filename=name2, plot_filename=name4,
                    date_field='date',
-                   exercise_price=3250, int_rate_field='int_rate',
+                   exercise_price=3500, int_rate_field='int_rate',
                    iv_field=name3, maturity_field='dtm',
-                   option_price_field='mid', option_type='put',
+                   option_price_field='mid', option_type='Call',
                    underlying_price_field='underlying')
