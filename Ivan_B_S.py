@@ -53,6 +53,7 @@ def black_scholes(exercise_price, interest_rate, maturity_time, option_type,
 
     """
     # Raise errors in case argument conditions do not hold.
+    # Change
     if exercise_price < 0:
         raise ValueError(f'{exercise_price = } must be positive.')
     if underlying_price < 0:
