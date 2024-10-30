@@ -239,5 +239,5 @@ if __name__ == '__main__':
                    date_field='date',
                    exercise_price=3500, int_rate_field='int_rate',
                    iv_field=name3, maturity_field='dtm',
-                   option_price_field='mid', option_type='Call',
+                   option_price_field='mid', option_type='Put',
                    underlying_price_field='underlying')
